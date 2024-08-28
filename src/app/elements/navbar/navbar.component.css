@@ -1,0 +1,48 @@
+
+.navbar-links {
+
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.navbar-link {
+    font-family: Montserrat;
+    color: var(--clr-text);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: .3s ease;
+    padding-bottom: 4px;
+    transform: translateY(4px);
+}
+
+.navbar-link:hover {
+    border-bottom: 3px solid var(--clr-accent);
+}
+
+.navbar-cart {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.cart-text {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--clr-dark);
+}
+
+.cart-figure {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #ececec;
+}
