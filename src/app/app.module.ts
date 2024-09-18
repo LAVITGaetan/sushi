@@ -9,6 +9,10 @@ import { GaleryComponent } from './elements/galery/galery.component';
 import { ProductsComponent } from './elements/products/products.component';
 import { FooterComponent } from './elements/footer/footer.component';
 import { NavbarComponent } from './elements/navbar/navbar.component';
+import { HomeComponent } from './pages/home/home.component';
+import { TeamComponent } from './pages/team/team.component';
+import { EquipeComponent } from './elements/equipe/equipe.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { NavbarComponent } from './elements/navbar/navbar.component';
     GaleryComponent,
     ProductsComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent,
+    TeamComponent,
+    EquipeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

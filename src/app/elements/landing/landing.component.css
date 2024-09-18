@@ -46,7 +46,10 @@
 
 .landing-hero {
     border-radius: 4px;
-    background: var(--clr-accent);
+    background: var(--clr-accent-light);
     grid-area: 1 / 2 / 4 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

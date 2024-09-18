@@ -8,6 +8,7 @@
     --clr-background: #FCFAFA;
     --clr-accent-dark: #D34D4A;
     --clr-accent: #D3634A;
+    --clr-accent-light: #d3634a10;
     --clr-text: #2b2c34;
     --clr-dark: #282C32;
 }
@@ -15,6 +16,26 @@
 body {
     background-color: var(--clr-background);
     font-family: Montserrat;
+}
+
+.page-title {
+    font-size: 26px;
+    font-family: Montserrat;
+    color: var(--clr-text);
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.page-subtitle {
+    font-size: 20px;
+    font-family: Nunito;
+    color: var(--clr-text);
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 .section-title {
@@ -38,7 +59,7 @@ body {
 
 .landing-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 350px;
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 48px;
     grid-row-gap: 0px;
@@ -50,13 +71,25 @@ body {
 
 .products-section {
     max-width: 1200px;
-    margin: 24px auto 24px auto;
+    margin: 0 auto 24px auto;
     border-bottom: 2px solid #ececec;
     padding-bottom: 48px;
 }
 
 
 .galery-section {
+    max-width: 1200px;
+    margin: 48px auto 24px auto;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 48px auto;
+}
+
+.team-section {
     max-width: 1200px;
     margin: 48px auto 24px auto;
 }
@@ -133,6 +166,7 @@ body {
     .landing-section,
     .products-section,
     .testimonials-section,
+    .galery-section,
     .navbar {
         max-width: 100%;
         padding: 24px 12%;
@@ -147,5 +181,67 @@ body {
 
     .testimonials-card {
         padding: 20px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .landing-section,
+    .products-section,
+    .testimonials-section,
+    .galery-section,
+    .navbar {
+        max-width: 100%;
+        padding: 24px 8%;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .testimonials-card {
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .landing-section,
+    .products-section,
+    .testimonials-section,
+    .galery-section,
+    .navbar {
+        max-width: 100%;
+        padding: 24px 48px;
+    }
+
+    .products-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 24px;
+    }
+
+    .testimonials-card {
+        padding: 20px !important;
+    }
+
+    .galery-section {
+        margin: 0 auto 32px auto;
+        padding: 0 48px;
+    }
+    .testimonials-section {
+        margin: 0 auto 32px auto;
+    }
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 24px;
     }
 }
