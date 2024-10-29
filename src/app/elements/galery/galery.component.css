@@ -6,13 +6,6 @@
     border-radius: 4px;
 }
 
-.galery7 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    filter: blur(0);
-}
-
 .galery-button {
     padding: 16px;
     background: var(--clr-accent);
@@ -24,3 +17,4 @@
     cursor: pointer;
     text-decoration: none;
 }
+
