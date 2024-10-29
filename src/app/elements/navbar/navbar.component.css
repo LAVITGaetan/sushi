@@ -57,3 +57,26 @@
     cursor: pointer;
     border: 2px solid #ececec;
 }
+
+.navbar-mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .navbar-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.navbar-links {
+    display: none;
+}
+
+.cart-figure {
+    display: none;
+}
+
+}
+
