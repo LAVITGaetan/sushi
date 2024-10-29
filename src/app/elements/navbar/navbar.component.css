@@ -1,6 +1,5 @@
 
 .navbar-links {
-
     display: flex;
     align-items: center;
     gap: 48px;
@@ -60,6 +59,8 @@
 
 .navbar-mobile {
     display: none;
+}.logo-mobile {
+    display: none;
 }
 
 
@@ -75,6 +76,14 @@
 }
 
 .cart-figure {
+    display: none;
+}
+
+.logo-mobile {
+    display: block;
+}
+
+.logo-desktop {
     display: none;
 }
 

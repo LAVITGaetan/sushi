@@ -58,5 +58,8 @@
 .landing-hero {
     display: none;
 }
+.landing-description {
+    margin-bottom: 24px;
+}
 }
 
