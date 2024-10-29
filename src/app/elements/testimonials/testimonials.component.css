@@ -1,11 +1,11 @@
 
 
 .testimonials-card {
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: 3px 3px 20px 0 #00000027;
-    padding: 24px 32px;
+    padding: 24px;
     height: fit-content;
-    border-left: 4px solid var(--clr-accent);
+    background: white;
 }
 
 .card-description {

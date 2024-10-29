@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     padding: 16px 0;
     box-shadow: 0px 15px 10px -15px #00000010;
@@ -59,18 +59,18 @@ body {
 
 .landing-section {
     display: grid;
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     grid-column-gap: 48px;
     grid-row-gap: 0px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 32px auto;
     padding: 24px 0;
     background-color: var(--clr-background);
 }
 
 .products-section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto 24px auto;
     border-bottom: 2px solid #ececec;
     padding-bottom: 48px;
@@ -78,19 +78,19 @@ body {
 
 
 .galery-section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 48px auto 24px auto;
 }
 
 .contact {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 48px auto;
 }
 
 .team-section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 48px auto 24px auto;
 }
 
@@ -147,7 +147,7 @@ body {
 
 
 .testimonials-section {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 32px auto;
     padding: 24px 0;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1500px) {
 
     .landing-section,
     .products-section,
@@ -235,13 +235,44 @@ body {
         margin: 0 auto 32px auto;
         padding: 0 48px;
     }
+
     .testimonials-section {
         margin: 0 auto 32px auto;
     }
+
     .testimonials-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
         gap: 24px;
     }
+}
+
+
+@media screen and (max-width: 768px) {
+    .landing-section {
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+    }
+    .testimonials-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        gap: 24px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .products-section {
+        grid-template-columns: 1fr;
+    }
+    .products-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        gap: 24px;
+    }
+
+    
 }

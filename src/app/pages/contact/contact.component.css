@@ -2,15 +2,14 @@
     width: 50%;
     border-right: 3px solid #ececec;
     padding: 0 48px;
-margin-top: 24px;
+    margin-top: 24px;
 }
 
 .contact-right {
     border-left: 3px solid #ececec;
     width: 50%;
-padding: 24px 48px;
-margin-top: 24px;
-
+    padding: 24px 48px;
+    margin-top: 24px;
 }
 
 .form-group {
@@ -72,9 +71,10 @@ margin-top: 24px;
     gap: 16px;
     margin-bottom: 24px;
     cursor: pointer;
-
-        box-shadow: 0px 8px 20px rgba(0,0,0,0.06);
-    border-radius: 48px;
+    width: fit-content;
+    padding: 12px 24px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.06);
+    border-radius: 2px;
 }
 
 .coord-figure {
@@ -98,6 +98,7 @@ margin-top: 24px;
     color: var(--clr-text);
     line-height: 150%;
     font-weight: 600;
+    width: calc(100% - 64px);
 }
 
 

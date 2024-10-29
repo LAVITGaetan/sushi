@@ -12,14 +12,25 @@
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
     transition: .3s ease;
     padding-bottom: 4px;
     transform: translateY(4px);
 }
 
-.navbar-link:hover {
-    border-bottom: 3px solid var(--clr-accent);
+.navbar-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: var(--clr-accent);
+    bottom: -2px;
+    left: 0;
+    transition: .3s;
+
+}
+
+.navbar-link:hover::after {
+    width: 100%;
 }
 
 .navbar-cart {

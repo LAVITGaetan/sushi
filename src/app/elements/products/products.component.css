@@ -1,12 +1,13 @@
 
 
 .products-card {
-    border-radius: 4px;
-    border: 2px solid #ececec;
+    border-radius: 2px;
     padding: 20px;
     transition: .3s ease;
     position: relative;
-    border-top: 2px solid var(--clr-accent);
+    border-top: 3px solid var(--clr-accent);
+    background: white;
+    box-shadow: 3px 3px 20px 0 #00000016;
 }
 
 .card-design {
