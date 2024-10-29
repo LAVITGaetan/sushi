@@ -272,11 +272,11 @@ body {
 
     .galery-section {
         margin-bottom: 0;
-        padding: 24px;
+        padding: 12px 24px;
     }
 
     .galery-grid {
-        min-height: 250px;
+        min-height: 300px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
