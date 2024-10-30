@@ -80,7 +80,9 @@ body {
 .reasons-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 24px 0;
+    row-gap: 24px;
 }
 
 .products-section {
@@ -225,6 +227,10 @@ body {
     .testimonials-card {
         padding: 20px !important;
     }
+    
+.reasons-container {
+display: none;
+}
 }
 
 @media screen and (max-width: 960px) {
