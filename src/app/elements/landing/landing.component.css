@@ -63,3 +63,11 @@
 }
 }
 
+
+
+.landing-hero video {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 2px;
+}

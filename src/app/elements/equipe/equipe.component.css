@@ -68,14 +68,14 @@
     background-color: var(--clr-accent-light);
     z-index: -1;
     background: rgb(211,99,74);
-    background: linear-gradient(90deg, rgba(211,99,74,1) -300%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(211,99,74,1) -1000%, rgba(255,255,255,1) 100%);
 }
 
 .card-description {
     margin-top: 16px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 170%;
     font-family: Nunito;
     color: var(--clr-text);
 }

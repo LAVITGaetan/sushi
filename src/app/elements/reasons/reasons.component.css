@@ -1,0 +1,45 @@
+.reasons-title {
+    text-align: center;
+    font-size: 22px;
+    font-family: Montserrat;
+    color: var(--clr-text);
+    font-weight: 700;
+}
+
+.reasons-background {
+    background-color: white;
+}
+
+
+.reason-card {
+    max-width: 30%;
+    border: 3px solid var(--clr-accent-light);
+    padding: 24px;
+}
+
+.reason-figure {
+    width: 56px;
+    height: 56px;
+    background-color: var(--clr-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:48px;
+    margin-bottom: 12px;
+}
+
+.reason-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--clr-text);
+    margin-bottom: 12px;
+}
+
+.reason-text {
+    font-size: 16px;
+    color: var(--clr-text);
+    font-style: italic;
+    font-weight: 500;
+    line-height: 150%;
+}
